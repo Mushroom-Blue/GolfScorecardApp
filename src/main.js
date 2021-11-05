@@ -13,6 +13,9 @@ xmlHTTP.onreadystatechange = () => {
         document.getElementById("oneCourseIMGTXT").innerHTML = `
             <div class="courseName">${oneCourse.data.name}</div>
             <div class="coursePhone">${oneCourse.data.phone}</div>
+            <div class="courseAddr">${oneCourse.data.addr1}</div>
+            <div class="courseCity">${oneCourse.data.city}</div>
+            <div class="courseState">${oneCourse.data.stateOrProvince}</div>
         `
     }
 }
