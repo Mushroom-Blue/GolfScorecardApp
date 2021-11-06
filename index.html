@@ -14,6 +14,29 @@
         <div id="oneCourseIMG"></div>
         <div id="oneCourseIMGTXT"></div>
       </div>
+      <div class="bottomSection">
+        <div class="teeTypeBox">
+          <div class="teeTypeInfo">Please Select Tee!</div>
+          <select name="teeType" id="teeType" onchange="currentTee()"></select>
+        </div>
+        <div>
+          <div id="errorMsg"></div>
+          <button
+            type="button"
+            onclick="window.location.href='./scorecard.html'"
+          >
+            Start!
+          </button>
+        </div>
+        <div class="addPlayerBox">
+          <div class="playerList">Player List</div>
+          <input id="playerNameInput" type="text" placeholder="Enter Name" />
+          <button onclick="addPlayerNames()">Add</button>
+          <div class="nameContainer">
+            <div id="playerNames"></div>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>

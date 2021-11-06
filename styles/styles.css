@@ -24,24 +24,67 @@ body {
 }
 
 .courseName {
-  font-size: 32px;
+  font-size: 30px;
   text-decoration: underline;
 }
 
 .coursePhone {
-  font-size: 26px;
+  font-size: 22px;
 }
 
 .courseAddr {
-  font-size: 26px;
+  font-size: 22px;
 }
 
 .courseCity {
-  font-size: 26px;
+  font-size: 22px;
 }
 
 .courseState {
-  font-size: 26px;
+  font-size: 22px;
+}
+
+.teeTypeBox {
+  display: flex;
+  flex-direction: column;
+  margin-left: 160px;
+  margin-top: 20px;
+  height: 38px;
+  width: 150px;
+}
+
+.teeTypeInfo {
+  font-size: 20px;
+  text-decoration: underline;
+  margin-bottom: 12px;
+}
+
+.bottomSection {
+  display: flex;
+  justify-content: space-between;
+}
+
+#errorMsg {
+  color: red;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.singlePlayer {
+  margin-top: 8px;
+  font-size: 18px;
+}
+
+.addPlayerBox {
+  margin-right: 160px;
+  margin-top: 25px;
+}
+
+.playerList {
+  margin-bottom: 12px;
+  font-size: 20px;
+  text-decoration: underline;
 }
 
 /*# sourceMappingURL=styles.css.map */
