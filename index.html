@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="./src/main.js"></script>
     <link rel="stylesheet" href="./styles/styles.css" />
+    <script defer src="./src/main.js"></script>
     <title>Golf Scorecard App</title>
   </head>
   <body>
@@ -15,26 +15,35 @@
         <div id="oneCourseIMGTXT"></div>
       </div>
       <div class="bottomSection">
-        <div class="teeTypeBox">
-          <div class="teeTypeInfo">Please Select Tee!</div>
-          <select name="teeType" id="teeType" onchange="currentTee()"></select>
+        <div class="notButtonBox">
+          <div class="teeTypeBox">
+            <div class="teeTypeInfo">Please Select Tee!</div>
+            <select
+              name="teeType"
+              id="teeType"
+              onchange="currentTee()"
+            ></select>
+          </div>
+          <div class="middleSection">
+            <div id="errorMsg"></div>
+          </div>
+          <div class="addPlayerBox">
+            <div class="playerList">Player List</div>
+            <input id="playerNameInput" type="text" placeholder="Enter Name" />
+            <button onclick="addPlayerNames()">Add</button>
+            <div class="nameContainer">
+              <div id="playerNames"></div>
+            </div>
+          </div>
         </div>
-        <div>
-          <div id="errorMsg"></div>
+        <div class="beginButton">
           <button
+            id="startButton"
             type="button"
             onclick="window.location.href='./scorecard.html'"
           >
             Start!
           </button>
-        </div>
-        <div class="addPlayerBox">
-          <div class="playerList">Player List</div>
-          <input id="playerNameInput" type="text" placeholder="Enter Name" />
-          <button onclick="addPlayerNames()">Add</button>
-          <div class="nameContainer">
-            <div id="playerNames"></div>
-          </div>
         </div>
       </div>
     </div>
