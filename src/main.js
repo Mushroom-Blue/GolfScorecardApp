@@ -96,16 +96,16 @@ if (window.location.pathname === "/scorecard.html") {
                             <input disabled value="${hcpValues[0]}" />
                         </td>
                         <td>
-                            <input id="${sessionData[0] + "Hole1"}" type="number" />
+                            <input id="${sessionData[0] + "Hole1"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                         </td>
                         <td>
-                            <input id="${sessionData[1] + "Hole1"}" type="number" />
+                            <input id="${sessionData[1] + "Hole1"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                         </td>
                         <td>
-                            <input id="${sessionData[2] + "Hole1"}" type="number" />
+                            <input id="${sessionData[2] + "Hole1"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                         </td>
                         <td>
-                            <input id="${sessionData[3] + "Hole1"}" type="number" />
+                            <input id="${sessionData[3] + "Hole1"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                         </td>
                         <td>
                             <input disabled value="${yardValues[0]}" />
@@ -122,16 +122,16 @@ if (window.location.pathname === "/scorecard.html") {
                             <input disabled value="${hcpValues[1]}" />
                         </td>
                         <td>
-                            <input id="${sessionData[0] + "Hole2"}" type="number" />
+                            <input id="${sessionData[0] + "Hole2"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                         </td>
                         <td>
-                            <input id="${sessionData[1] + "Hole2"}" type="number" />
+                            <input id="${sessionData[1] + "Hole2"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                         </td>
                         <td>
-                            <input id="${sessionData[2] + "Hole2"}" type="number" />
+                            <input id="${sessionData[2] + "Hole2"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                         </td>
                         <td>
-                            <input id="${sessionData[3] + "Hole2"}" type="number" />
+                            <input id="${sessionData[3] + "Hole2"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                         </td>
                         <td>
                             <input disabled value="${yardValues[1]}" />
@@ -148,16 +148,16 @@ if (window.location.pathname === "/scorecard.html") {
                             <input disabled value="${hcpValues[2]}" />
                         </td>
                         <td>
-                            <input id="${sessionData[0] + "Hole3"}" type="number" />
+                            <input id="${sessionData[0] + "Hole3"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                         </td>
                         <td>
-                            <input id="${sessionData[1] + "Hole3"}" type="number" />
+                            <input id="${sessionData[1] + "Hole3"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                         </td>
                         <td>
-                            <input id="${sessionData[2] + "Hole3"}" type="number" />
+                            <input id="${sessionData[2] + "Hole3"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                         </td>
                         <td>
-                            <input id="${sessionData[3] + "Hole3"}" type="number" />
+                            <input id="${sessionData[3] + "Hole3"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                         </td>
                         <td>
                             <input disabled value="${yardValues[2]}" />
@@ -174,16 +174,16 @@ if (window.location.pathname === "/scorecard.html") {
                             <input disabled value="${hcpValues[3]}" />
                         </td>
                         <td>
-                            <input id="${sessionData[0] + "Hole4"}" type="number" />
+                            <input id="${sessionData[0] + "Hole4"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                         </td>
                         <td>
-                            <input id="${sessionData[1] + "Hole4"}" type="number" />
+                            <input id="${sessionData[1] + "Hole4"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                         </td>
                         <td>
-                            <input id="${sessionData[2] + "Hole4"}" type="number" />
+                            <input id="${sessionData[2] + "Hole4"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                         </td>
                         <td>
-                            <input id="${sessionData[3] + "Hole4"}" type="number" />
+                            <input id="${sessionData[3] + "Hole4"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                         </td>
                         <td>
                             <input disabled value="${yardValues[3]}" />
@@ -200,16 +200,16 @@ if (window.location.pathname === "/scorecard.html") {
                             <input disabled value="${hcpValues[4]}" />
                         </td>
                         <td>
-                            <input id="${sessionData[0] + "Hole5"}" type="number" />
+                            <input id="${sessionData[0] + "Hole5"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                         </td>
                         <td>
-                            <input id="${sessionData[1] + "Hole5"}" type="number" />
+                            <input id="${sessionData[1] + "Hole5"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                         </td>
                         <td>
-                            <input id="${sessionData[2] + "Hole5"}" type="number" />
+                            <input id="${sessionData[2] + "Hole5"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                         </td>
                         <td>
-                            <input id="${sessionData[3] + "Hole5"}" type="number" />
+                            <input id="${sessionData[3] + "Hole5"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                         </td>
                         <td>
                             <input disabled value="${yardValues[4]}" />
@@ -226,16 +226,16 @@ if (window.location.pathname === "/scorecard.html") {
                             <input disabled value="${hcpValues[5]}" />
                         </td>
                         <td>
-                            <input id="${sessionData[0] + "Hole6"}" type="number" />
+                            <input id="${sessionData[0] + "Hole6"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                         </td>
                         <td>
-                            <input id="${sessionData[1] + "Hole6"}" type="number" />
+                            <input id="${sessionData[1] + "Hole6"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                         </td>
                         <td>
-                            <input id="${sessionData[2] + "Hole6"}" type="number" />
+                            <input id="${sessionData[2] + "Hole6"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                         </td>
                         <td>
-                            <input id="${sessionData[3] + "Hole6"}" type="number" />
+                            <input id="${sessionData[3] + "Hole6"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                         </td>
                         <td>
                             <input disabled value="${yardValues[5]}" />
@@ -252,16 +252,16 @@ if (window.location.pathname === "/scorecard.html") {
                             <input disabled value="${hcpValues[6]}" />
                         </td>
                         <td>
-                            <input id="${sessionData[0] + "Hole7"}" type="number" />
+                            <input id="${sessionData[0] + "Hole7"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                         </td>
                         <td>
-                            <input id="${sessionData[1] + "Hole7"}" type="number" />
+                            <input id="${sessionData[1] + "Hole7"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                         </td>
                         <td>
-                            <input id="${sessionData[2] + "Hole7"}" type="number" />
+                            <input id="${sessionData[2] + "Hole7"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                         </td>
                         <td>
-                            <input id="${sessionData[3] + "Hole7"}" type="number" />
+                            <input id="${sessionData[3] + "Hole7"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                         </td>
                         <td>
                             <input disabled value="${yardValues[6]}" />
@@ -278,16 +278,16 @@ if (window.location.pathname === "/scorecard.html") {
                             <input disabled value="${hcpValues[7]}" />
                         </td>
                         <td>
-                            <input id="${sessionData[0] + "Hole8"}" type="number" />
+                            <input id="${sessionData[0] + "Hole8"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                         </td>
                         <td>
-                            <input id="${sessionData[1] + "Hole8"}" type="number" />
+                            <input id="${sessionData[1] + "Hole8"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                         </td>
                         <td>
-                            <input id="${sessionData[2] + "Hole8"}" type="number" />
+                            <input id="${sessionData[2] + "Hole8"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                         </td>
                         <td>
-                            <input id="${sessionData[3] + "Hole8"}" type="number" />
+                            <input id="${sessionData[3] + "Hole8"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                         </td>
                         <td>
                             <input disabled value="${yardValues[7]}" />
@@ -304,16 +304,16 @@ if (window.location.pathname === "/scorecard.html") {
                             <input disabled value="${hcpValues[8]}" />
                         </td>
                         <td>
-                            <input id="${sessionData[0] + "Hole9"}" type="number" />
+                            <input id="${sessionData[0] + "Hole9"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                         </td>
                         <td>
-                            <input id="${sessionData[1] + "Hole9"}" type="number" />
+                            <input id="${sessionData[1] + "Hole9"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                         </td>
                         <td>
-                            <input id="${sessionData[2] + "Hole9"}" type="number" />
+                            <input id="${sessionData[2] + "Hole9"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                         </td>
                         <td>
-                            <input id="${sessionData[3] + "Hole9"}" type="number" />
+                            <input id="${sessionData[3] + "Hole9"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                         </td>
                         <td>
                             <input disabled value="${yardValues[8]}" />
@@ -356,16 +356,16 @@ if (window.location.pathname === "/scorecard.html") {
                             <input disabled value="${hcpValues[9]}" />
                         </td>
                         <td>
-                            <input id="${sessionData[0] + "Hole10"}" type="number" />
+                            <input id="${sessionData[0] + "Hole10"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                         </td>
                         <td>
-                            <input id="${sessionData[1] + "Hole10"}" type="number" />
+                            <input id="${sessionData[1] + "Hole10"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                         </td>
                         <td>
-                            <input id="${sessionData[2] + "Hole10"}" type="number" />
+                            <input id="${sessionData[2] + "Hole10"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                         </td>
                         <td>
-                            <input id="${sessionData[3] + "Hole10"}" type="number" />
+                            <input id="${sessionData[3] + "Hole10"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                         </td>
                         <td>
                             <input disabled value="${yardValues[9]}" />
@@ -382,16 +382,16 @@ if (window.location.pathname === "/scorecard.html") {
                             <input disabled value="${hcpValues[10]}" />
                         </td>
                         <td>
-                            <input id="${sessionData[0] + "Hole11"}" type="number" />
+                            <input id="${sessionData[0] + "Hole11"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                         </td>
                         <td>
-                            <input id="${sessionData[1] + "Hole11"}" type="number" />
+                            <input id="${sessionData[1] + "Hole11"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                         </td>
                         <td>
-                            <input id="${sessionData[2] + "Hole11"}" type="number" />
+                            <input id="${sessionData[2] + "Hole11"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                         </td>
                         <td>
-                            <input id="${sessionData[3] + "Hole11"}" type="number" />
+                            <input id="${sessionData[3] + "Hole11"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                         </td>
                         <td>
                             <input disabled value="${yardValues[10]}" />
@@ -408,16 +408,16 @@ if (window.location.pathname === "/scorecard.html") {
                             <input disabled value="${hcpValues[11]}" />
                         </td>
                         <td>
-                            <input id="${sessionData[0] + "Hole12"}" type="number" />
+                            <input id="${sessionData[0] + "Hole12"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                         </td>
                         <td>
-                            <input id="${sessionData[1] + "Hole12"}" type="number" />
+                            <input id="${sessionData[1] + "Hole12"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                         </td>
                         <td>
-                            <input id="${sessionData[2] + "Hole12"}" type="number" />
+                            <input id="${sessionData[2] + "Hole12"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                         </td>
                         <td>
-                            <input id="${sessionData[3] + "Hole12"}" type="number" />
+                            <input id="${sessionData[3] + "Hole12"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                         </td>
                         <td>
                             <input disabled value="${yardValues[11]}" />
@@ -434,16 +434,16 @@ if (window.location.pathname === "/scorecard.html") {
                             <input disabled value="${hcpValues[12]}" />
                         </td>
                         <td>
-                            <input id="${sessionData[0] + "Hole13"}" type="number" />
+                            <input id="${sessionData[0] + "Hole13"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                         </td>
                         <td>
-                            <input id="${sessionData[1] + "Hole13"}" type="number" />
+                            <input id="${sessionData[1] + "Hole13"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                         </td>
                         <td>
-                            <input id="${sessionData[2] + "Hole13"}" type="number" />
+                            <input id="${sessionData[2] + "Hole13"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                         </td>
                         <td>
-                            <input id="${sessionData[3] + "Hole13"}" type="number" />
+                            <input id="${sessionData[3] + "Hole13"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                         </td>
                         <td>
                             <input disabled value="${yardValues[12]}" />
@@ -460,16 +460,16 @@ if (window.location.pathname === "/scorecard.html") {
                             <input disabled value="${hcpValues[13]}" />
                         </td>
                         <td>
-                            <input id="${sessionData[0] + "Hole14"}" type="number" />
+                            <input id="${sessionData[0] + "Hole14"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                         </td>
                         <td>
-                            <input id="${sessionData[1] + "Hole14"}" type="number" />
+                            <input id="${sessionData[1] + "Hole14"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                         </td>
                         <td>
-                            <input id="${sessionData[2] + "Hole14"}" type="number" />
+                            <input id="${sessionData[2] + "Hole14"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                         </td>
                         <td>
-                            <input id="${sessionData[3] + "Hole14"}" type="number" />
+                            <input id="${sessionData[3] + "Hole14"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                         </td>
                         <td>
                             <input disabled value="${yardValues[13]}" />
@@ -486,16 +486,16 @@ if (window.location.pathname === "/scorecard.html") {
                             <input disabled value="${hcpValues[14]}" />
                         </td>
                         <td>
-                            <input id="${sessionData[0] + "Hole15"}" type="number" />
+                            <input id="${sessionData[0] + "Hole15"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                         </td>
                         <td>
-                            <input id="${sessionData[1] + "Hole15"}" type="number" />
+                            <input id="${sessionData[1] + "Hole15"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                         </td>
                         <td>
-                            <input id="${sessionData[2] + "Hole15"}" type="number" />
+                            <input id="${sessionData[2] + "Hole15"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                         </td>
                         <td>
-                            <input id="${sessionData[3] + "Hole15"}" type="number" />
+                            <input id="${sessionData[3] + "Hole15"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                         </td>
                         <td>
                             <input disabled value="${yardValues[14]}" />
@@ -512,16 +512,16 @@ if (window.location.pathname === "/scorecard.html") {
                             <input disabled value="${hcpValues[15]}" />
                         </td>
                         <td>
-                            <input id="${sessionData[0] + "Hole16"}" type="number" />
+                            <input id="${sessionData[0] + "Hole16"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                         </td>
                         <td>
-                            <input id="${sessionData[1] + "Hole16"}" type="number" />
+                            <input id="${sessionData[1] + "Hole16"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                         </td>
                         <td>
-                            <input id="${sessionData[2] + "Hole16"}" type="number" />
+                            <input id="${sessionData[2] + "Hole16"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                         </td>
                         <td>
-                            <input id="${sessionData[3] + "Hole16"}" type="number" />
+                            <input id="${sessionData[3] + "Hole16"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                         </td>
                         <td>
                             <input disabled value="${yardValues[15]}" />
@@ -538,16 +538,16 @@ if (window.location.pathname === "/scorecard.html") {
                             <input disabled value="${hcpValues[16]}" />
                         </td>
                         <td>
-                            <input id="${sessionData[0] + "Hole17"}" type="number" />
+                            <input id="${sessionData[0] + "Hole17"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                         </td>
                         <td>
-                            <input id="${sessionData[1] + "Hole17"}" type="number" />
+                            <input id="${sessionData[1] + "Hole17"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                         </td>
                         <td>
-                            <input id="${sessionData[2] + "Hole17"}" type="number" />
+                            <input id="${sessionData[2] + "Hole17"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                         </td>
                         <td>
-                            <input id="${sessionData[3] + "Hole17"}" type="number" />
+                            <input id="${sessionData[3] + "Hole17"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                         </td>
                         <td>
                             <input disabled value="${yardValues[16]}" />
@@ -564,16 +564,16 @@ if (window.location.pathname === "/scorecard.html") {
                             <input disabled value="${hcpValues[17]}" />
                         </td>
                         <td>
-                            <input id="${sessionData[0] + "Hole18"}" type="number" />
+                            <input id="${sessionData[0] + "Hole18"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                         </td>
                         <td>
-                            <input id="${sessionData[1] + "Hole18"}" type="number" />
+                            <input id="${sessionData[1] + "Hole18"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                         </td>
                         <td>
-                            <input id="${sessionData[2] + "Hole18"}" type="number" />
+                            <input id="${sessionData[2] + "Hole18"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                         </td>
                         <td>
-                            <input id="${sessionData[3] + "Hole18"}" type="number" />
+                            <input id="${sessionData[3] + "Hole18"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                         </td>
                         <td>
                             <input disabled value="${yardValues[17]}" />
@@ -660,13 +660,13 @@ if (window.location.pathname === "/scorecard.html") {
                         <input disabled value="${hcpValues[0]}" />
                     </td>
                     <td>
-                        <input id="${sessionData[0] + "Hole1"}" type="number" />
+                        <input id="${sessionData[0] + "Hole1"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                     </td>
                     <td>
-                        <input id="${sessionData[1] + "Hole1"}" type="number" />
+                        <input id="${sessionData[1] + "Hole1"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                     </td>
                     <td>
-                        <input id="${sessionData[2] + "Hole1"}" type="number" />
+                        <input id="${sessionData[2] + "Hole1"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                     </td>
                     <td>
                         <input disabled value="${yardValues[0]}" />
@@ -683,13 +683,13 @@ if (window.location.pathname === "/scorecard.html") {
                         <input disabled value="${hcpValues[1]}" />
                     </td>
                     <td>
-                        <input id="${sessionData[0] + "Hole2"}" type="number" />
+                        <input id="${sessionData[0] + "Hole2"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                     </td>
                     <td>
-                        <input id="${sessionData[1] + "Hole2"}" type="number" />
+                        <input id="${sessionData[1] + "Hole2"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                     </td>
                     <td>
-                        <input id="${sessionData[2] + "Hole2"}" type="number" />
+                        <input id="${sessionData[2] + "Hole2"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                     </td>
                     <td>
                         <input disabled value="${yardValues[1]}" />
@@ -706,13 +706,13 @@ if (window.location.pathname === "/scorecard.html") {
                         <input disabled value="${hcpValues[2]}" />
                     </td>
                     <td>
-                        <input id="${sessionData[0] + "Hole3"}" type="number" />
+                        <input id="${sessionData[0] + "Hole3"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                     </td>
                     <td>
-                        <input id="${sessionData[1] + "Hole3"}" type="number" />
+                        <input id="${sessionData[1] + "Hole3"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                     </td>
                     <td>
-                        <input id="${sessionData[2] + "Hole3"}" type="number" />
+                        <input id="${sessionData[2] + "Hole3"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                     </td>
                     <td>
                         <input disabled value="${yardValues[2]}" />
@@ -729,13 +729,13 @@ if (window.location.pathname === "/scorecard.html") {
                         <input disabled value="${hcpValues[3]}" />
                     </td>
                     <td>
-                        <input id="${sessionData[0] + "Hole4"}" type="number" />
+                        <input id="${sessionData[0] + "Hole4"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                     </td>
                     <td>
-                        <input id="${sessionData[1] + "Hole4"}" type="number" />
+                        <input id="${sessionData[1] + "Hole4"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                     </td>
                     <td>
-                        <input id="${sessionData[2] + "Hole4"}" type="number" />
+                        <input id="${sessionData[2] + "Hole4"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                     </td>
                     <td>
                         <input disabled value="${yardValues[3]}" />
@@ -752,13 +752,13 @@ if (window.location.pathname === "/scorecard.html") {
                         <input disabled value="${hcpValues[4]}" />
                     </td>
                     <td>
-                        <input id="${sessionData[0] + "Hole5"}" type="number" />
+                        <input id="${sessionData[0] + "Hole5"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                     </td>
                     <td>
-                        <input id="${sessionData[1] + "Hole5"}" type="number" />
+                        <input id="${sessionData[1] + "Hole5"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                     </td>
                     <td>
-                        <input id="${sessionData[2] + "Hole5"}" type="number" />
+                        <input id="${sessionData[2] + "Hole5"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                     </td>
                     <td>
                         <input disabled value="${yardValues[4]}" />
@@ -775,13 +775,13 @@ if (window.location.pathname === "/scorecard.html") {
                         <input disabled value="${hcpValues[5]}" />
                     </td>
                     <td>
-                        <input id="${sessionData[0] + "Hole6"}" type="number" />
+                        <input id="${sessionData[0] + "Hole6"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                     </td>
                     <td>
-                        <input id="${sessionData[1] + "Hole6"}" type="number" />
+                        <input id="${sessionData[1] + "Hole6"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                     </td>
                     <td>
-                        <input id="${sessionData[2] + "Hole6"}" type="number" />
+                        <input id="${sessionData[2] + "Hole6"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                     </td>
                     <td>
                         <input disabled value="${yardValues[5]}" />
@@ -798,13 +798,13 @@ if (window.location.pathname === "/scorecard.html") {
                         <input disabled value="${hcpValues[6]}" />
                     </td>
                     <td>
-                        <input id="${sessionData[0] + "Hole7"}" type="number" />
+                        <input id="${sessionData[0] + "Hole7"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                     </td>
                     <td>
-                        <input id="${sessionData[1] + "Hole7"}" type="number" />
+                        <input id="${sessionData[1] + "Hole7"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                     </td>
                     <td>
-                        <input id="${sessionData[2] + "Hole7"}" type="number" />
+                        <input id="${sessionData[2] + "Hole7"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                     </td>
                     <td>
                         <input disabled value="${yardValues[6]}" />
@@ -821,13 +821,13 @@ if (window.location.pathname === "/scorecard.html") {
                         <input disabled value="${hcpValues[7]}" />
                     </td>
                     <td>
-                        <input id="${sessionData[0] + "Hole8"}" type="number" />
+                        <input id="${sessionData[0] + "Hole8"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                     </td>
                     <td>
-                        <input id="${sessionData[1] + "Hole8"}" type="number" />
+                        <input id="${sessionData[1] + "Hole8"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                     </td>
                     <td>
-                        <input id="${sessionData[2] + "Hole8"}" type="number" />
+                        <input id="${sessionData[2] + "Hole8"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                     </td>
                     <td>
                         <input disabled value="${yardValues[7]}" />
@@ -844,13 +844,13 @@ if (window.location.pathname === "/scorecard.html") {
                         <input disabled value="${hcpValues[8]}" />
                     </td>
                     <td>
-                        <input id="${sessionData[0] + "Hole9"}" type="number" />
+                        <input id="${sessionData[0] + "Hole9"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                     </td>
                     <td>
-                        <input id="${sessionData[1] + "Hole9"}" type="number" />
+                        <input id="${sessionData[1] + "Hole9"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                     </td>
                     <td>
-                        <input id="${sessionData[2] + "Hole9"}" type="number" />
+                        <input id="${sessionData[2] + "Hole9"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                     </td>
                     <td>
                         <input disabled value="${yardValues[8]}" />
@@ -890,13 +890,13 @@ if (window.location.pathname === "/scorecard.html") {
                         <input disabled value="${hcpValues[9]}" />
                     </td>
                     <td>
-                        <input id="${sessionData[0] + "Hole10"}" type="number" />
+                        <input id="${sessionData[0] + "Hole10"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                     </td>
                     <td>
-                        <input id="${sessionData[1] + "Hole10"}" type="number" />
+                        <input id="${sessionData[1] + "Hole10"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                     </td>
                     <td>
-                        <input id="${sessionData[2] + "Hole10"}" type="number" />
+                        <input id="${sessionData[2] + "Hole10"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                     </td>
                     <td>
                         <input disabled value="${yardValues[9]}" />
@@ -913,13 +913,13 @@ if (window.location.pathname === "/scorecard.html") {
                         <input disabled value="${hcpValues[10]}" />
                     </td>
                     <td>
-                        <input id="${sessionData[0] + "Hole11"}" type="number" />
+                        <input id="${sessionData[0] + "Hole11"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                     </td>
                     <td>
-                        <input id="${sessionData[1] + "Hole11"}" type="number" />
+                        <input id="${sessionData[1] + "Hole11"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                     </td>
                     <td>
-                        <input id="${sessionData[2] + "Hole11"}" type="number" />
+                        <input id="${sessionData[2] + "Hole11"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                     </td>
                     <td>
                         <input disabled value="${yardValues[10]}" />
@@ -936,13 +936,13 @@ if (window.location.pathname === "/scorecard.html") {
                         <input disabled value="${hcpValues[11]}" />
                     </td>
                     <td>
-                        <input id="${sessionData[0] + "Hole12"}" type="number" />
+                        <input id="${sessionData[0] + "Hole12"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                     </td>
                     <td>
-                        <input id="${sessionData[1] + "Hole12"}" type="number" />
+                        <input id="${sessionData[1] + "Hole12"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                     </td>
                     <td>
-                        <input id="${sessionData[2] + "Hole12"}" type="number" />
+                        <input id="${sessionData[2] + "Hole12"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                     </td>
                     <td>
                         <input disabled value="${yardValues[11]}" />
@@ -959,13 +959,13 @@ if (window.location.pathname === "/scorecard.html") {
                         <input disabled value="${hcpValues[12]}" />
                     </td>
                     <td>
-                        <input id="${sessionData[0] + "Hole13"}" type="number" />
+                        <input id="${sessionData[0] + "Hole13"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                     </td>
                     <td>
-                        <input id="${sessionData[1] + "Hole13"}" type="number" />
+                        <input id="${sessionData[1] + "Hole13"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                     </td>
                     <td>
-                        <input id="${sessionData[2] + "Hole13"}" type="number" />
+                        <input id="${sessionData[2] + "Hole13"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                     </td>
                     <td>
                         <input disabled value="${yardValues[12]}" />
@@ -982,13 +982,13 @@ if (window.location.pathname === "/scorecard.html") {
                         <input disabled value="${hcpValues[13]}" />
                     </td>
                     <td>
-                        <input id="${sessionData[0] + "Hole14"}" type="number" />
+                        <input id="${sessionData[0] + "Hole14"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                     </td>
                     <td>
-                        <input id="${sessionData[1] + "Hole14"}" type="number" />
+                        <input id="${sessionData[1] + "Hole14"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                     </td>
                     <td>
-                        <input id="${sessionData[2] + "Hole14"}" type="number" />
+                        <input id="${sessionData[2] + "Hole14"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                     </td>
                     <td>
                         <input disabled value="${yardValues[13]}" />
@@ -1005,13 +1005,13 @@ if (window.location.pathname === "/scorecard.html") {
                         <input disabled value="${hcpValues[14]}" />
                     </td>
                     <td>
-                        <input id="${sessionData[0] + "Hole15"}" type="number" />
+                        <input id="${sessionData[0] + "Hole15"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                     </td>
                     <td>
-                        <input id="${sessionData[1] + "Hole15"}" type="number" />
+                        <input id="${sessionData[1] + "Hole15"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                     </td>
                     <td>
-                        <input id="${sessionData[2] + "Hole15"}" type="number" />
+                        <input id="${sessionData[2] + "Hole15"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                     </td>
                     <td>
                         <input disabled value="${yardValues[14]}" />
@@ -1028,13 +1028,13 @@ if (window.location.pathname === "/scorecard.html") {
                         <input disabled value="${hcpValues[15]}" />
                     </td>
                     <td>
-                        <input id="${sessionData[0] + "Hole16"}" type="number" />
+                        <input id="${sessionData[0] + "Hole16"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                     </td>
                     <td>
-                        <input id="${sessionData[1] + "Hole16"}" type="number" />
+                        <input id="${sessionData[1] + "Hole16"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                     </td>
                     <td>
-                        <input id="${sessionData[2] + "Hole16"}" type="number" />
+                        <input id="${sessionData[2] + "Hole16"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                     </td>
                     <td>
                         <input disabled value="${yardValues[15]}" />
@@ -1051,13 +1051,13 @@ if (window.location.pathname === "/scorecard.html") {
                         <input disabled value="${hcpValues[16]}" />
                     </td>
                     <td>
-                        <input id="${sessionData[0] + "Hole17"}" type="number" />
+                        <input id="${sessionData[0] + "Hole17"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                     </td>
                     <td>
-                        <input id="${sessionData[1] + "Hole17"}" type="number" />
+                        <input id="${sessionData[1] + "Hole17"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                     </td>
                     <td>
-                        <input id="${sessionData[2] + "Hole17"}" type="number" />
+                        <input id="${sessionData[2] + "Hole17"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                     </td>
                     <td>
                         <input disabled value="${yardValues[16]}" />
@@ -1074,13 +1074,13 @@ if (window.location.pathname === "/scorecard.html") {
                         <input disabled value="${hcpValues[17]}" />
                     </td>
                     <td>
-                        <input id="${sessionData[0] + "Hole18"}" type="number" />
+                        <input id="${sessionData[0] + "Hole18"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                     </td>
                     <td>
-                        <input id="${sessionData[1] + "Hole18"}" type="number" />
+                        <input id="${sessionData[1] + "Hole18"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                     </td>
                     <td>
-                        <input id="${sessionData[2] + "Hole18"}" type="number" />
+                        <input id="${sessionData[2] + "Hole18"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                     </td>
                     <td>
                         <input disabled value="${yardValues[17]}" />
@@ -1161,10 +1161,10 @@ if (window.location.pathname === "/scorecard.html") {
                         <input disabled value="${hcpValues[0]}" />
                     </td>
                     <td>
-                        <input id="${sessionData[0] + "Hole1"}" type="number" />
+                        <input id="${sessionData[0] + "Hole1"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                     </td>
                     <td>
-                        <input id="${sessionData[1] + "Hole1"}" type="number" />
+                        <input id="${sessionData[1] + "Hole1"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                     </td>
                     <td>
                         <input disabled value="${yardValues[0]}" />
@@ -1181,10 +1181,10 @@ if (window.location.pathname === "/scorecard.html") {
                         <input disabled value="${hcpValues[1]}" />
                     </td>
                     <td>
-                        <input id="${sessionData[0] + "Hole2"}" type="number" />
+                        <input id="${sessionData[0] + "Hole2"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                     </td>
                     <td>
-                        <input id="${sessionData[1] + "Hole2"}" type="number" />
+                        <input id="${sessionData[1] + "Hole2"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                     </td>
                     <td>
                         <input disabled value="${yardValues[1]}" />
@@ -1201,10 +1201,10 @@ if (window.location.pathname === "/scorecard.html") {
                         <input disabled value="${hcpValues[2]}" />
                     </td>
                     <td>
-                        <input id="${sessionData[0] + "Hole3"}" type="number" />
+                        <input id="${sessionData[0] + "Hole3"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                     </td>
                     <td>
-                        <input id="${sessionData[1] + "Hole3"}" type="number" />
+                        <input id="${sessionData[1] + "Hole3"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                     </td>
                     <td>
                         <input disabled value="${yardValues[2]}" />
@@ -1221,10 +1221,10 @@ if (window.location.pathname === "/scorecard.html") {
                         <input disabled value="${hcpValues[3]}" />
                     </td>
                     <td>
-                        <input id="${sessionData[0] + "Hole4"}" type="number" />
+                        <input id="${sessionData[0] + "Hole4"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                     </td>
                     <td>
-                        <input id="${sessionData[1] + "Hole4"}" type="number" />
+                        <input id="${sessionData[1] + "Hole4"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                     </td>
                     <td>
                         <input disabled value="${yardValues[3]}" />
@@ -1241,10 +1241,10 @@ if (window.location.pathname === "/scorecard.html") {
                         <input disabled value="${hcpValues[4]}" />
                     </td>
                     <td>
-                        <input id="${sessionData[0] + "Hole5"}" type="number" />
+                        <input id="${sessionData[0] + "Hole5"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                     </td>
                     <td>
-                        <input id="${sessionData[1] + "Hole5"}" type="number" />
+                        <input id="${sessionData[1] + "Hole5"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                     </td>
                     <td>
                         <input disabled value="${yardValues[4]}" />
@@ -1261,10 +1261,10 @@ if (window.location.pathname === "/scorecard.html") {
                         <input disabled value="${hcpValues[5]}" />
                     </td>
                     <td>
-                        <input id="${sessionData[0] + "Hole6"}" type="number" />
+                        <input id="${sessionData[0] + "Hole6"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                     </td>
                     <td>
-                        <input id="${sessionData[1] + "Hole6"}" type="number" />
+                        <input id="${sessionData[1] + "Hole6"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                     </td>
                     <td>
                         <input disabled value="${yardValues[5]}" />
@@ -1281,10 +1281,10 @@ if (window.location.pathname === "/scorecard.html") {
                         <input disabled value="${hcpValues[6]}" />
                     </td>
                     <td>
-                        <input id="${sessionData[0] + "Hole7"}" type="number" />
+                        <input id="${sessionData[0] + "Hole7"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                     </td>
                     <td>
-                        <input id="${sessionData[1] + "Hole7"}" type="number" />
+                        <input id="${sessionData[1] + "Hole7"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                     </td>
                     <td>
                         <input disabled value="${yardValues[6]}" />
@@ -1301,10 +1301,10 @@ if (window.location.pathname === "/scorecard.html") {
                         <input disabled value="${hcpValues[7]}" />
                     </td>
                     <td>
-                        <input id="${sessionData[0] + "Hole8"}" type="number" />
+                        <input id="${sessionData[0] + "Hole8"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                     </td>
                     <td>
-                        <input id="${sessionData[1] + "Hole8"}" type="number" />
+                        <input id="${sessionData[1] + "Hole8"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                     </td>
                     <td>
                         <input disabled value="${yardValues[7]}" />
@@ -1321,10 +1321,10 @@ if (window.location.pathname === "/scorecard.html") {
                         <input disabled value="${hcpValues[8]}" />
                     </td>
                     <td>
-                        <input id="${sessionData[0] + "Hole9"}" type="number" />
+                        <input id="${sessionData[0] + "Hole9"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                     </td>
                     <td>
-                        <input id="${sessionData[1] + "Hole9"}" type="number" />
+                        <input id="${sessionData[1] + "Hole9"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                     </td>
                     <td>
                         <input disabled value="${yardValues[8]}" />
@@ -1341,10 +1341,10 @@ if (window.location.pathname === "/scorecard.html") {
                         <input disabled value="${outHcp}" />
                     </td>
                     <td>
-                        <input id="${sessionData[0] + "Out"}" disabled value="" />
+                        <input disabled id="${sessionData[0] + "Out"}" />
                     </td>
                     <td>
-                        <input id="${sessionData[1] + "Out"}" disabled value="" />
+                        <input disabled id="${sessionData[1] + "Out"}" />
                     </td>
                     <td>
                         <input disabled value="${outYards}" />
@@ -1361,10 +1361,10 @@ if (window.location.pathname === "/scorecard.html") {
                         <input disabled value="${hcpValues[9]}" />
                     </td>
                     <td>
-                        <input id="${sessionData[0] + "Hole10"}" type="number" />
+                        <input id="${sessionData[0] + "Hole10"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                     </td>
                     <td>
-                        <input id="${sessionData[1] + "Hole10"}" type="number" />
+                        <input id="${sessionData[1] + "Hole10"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                     </td>
                     <td>
                         <input disabled value="${yardValues[9]}" />
@@ -1381,10 +1381,10 @@ if (window.location.pathname === "/scorecard.html") {
                         <input disabled value="${hcpValues[10]}" />
                     </td>
                     <td>
-                        <input id="${sessionData[0] + "Hole11"}" type="number" />
+                        <input id="${sessionData[0] + "Hole11"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                     </td>
                     <td>
-                        <input id="${sessionData[1] + "Hole11"}" type="number" />
+                        <input id="${sessionData[1] + "Hole11"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                     </td>
                     <td>
                         <input disabled value="${yardValues[10]}" />
@@ -1401,10 +1401,10 @@ if (window.location.pathname === "/scorecard.html") {
                         <input disabled value="${hcpValues[11]}" />
                     </td>
                     <td>
-                        <input id="${sessionData[0] + "Hole12"}" type="number" />
+                        <input id="${sessionData[0] + "Hole12"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                     </td>
                     <td>
-                        <input id="${sessionData[1] + "Hole12"}" type="number" />
+                        <input id="${sessionData[1] + "Hole12"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                     </td>
                     <td>
                         <input disabled value="${yardValues[11]}" />
@@ -1421,10 +1421,10 @@ if (window.location.pathname === "/scorecard.html") {
                         <input disabled value="${hcpValues[12]}" />
                     </td>
                     <td>
-                        <input id="${sessionData[0] + "Hole13"}" type="number" />
+                        <input id="${sessionData[0] + "Hole13"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                     </td>
                     <td>
-                        <input id="${sessionData[1] + "Hole13"}" type="number" />
+                        <input id="${sessionData[1] + "Hole13"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                     </td>
                     <td>
                         <input disabled value="${yardValues[12]}" />
@@ -1441,10 +1441,10 @@ if (window.location.pathname === "/scorecard.html") {
                         <input disabled value="${hcpValues[13]}" />
                     </td>
                     <td>
-                        <input id="${sessionData[0] + "Hole14"}" type="number" />
+                        <input id="${sessionData[0] + "Hole14"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                     </td>
                     <td>
-                        <input id="${sessionData[1] + "Hole14"}" type="number" />
+                        <input id="${sessionData[1] + "Hole14"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                     </td>
                     <td>
                         <input disabled value="${yardValues[13]}" />
@@ -1461,10 +1461,10 @@ if (window.location.pathname === "/scorecard.html") {
                         <input disabled value="${hcpValues[14]}" />
                     </td>
                     <td>
-                        <input id="${sessionData[0] + "Hole15"}" type="number" />
+                        <input id="${sessionData[0] + "Hole15"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                     </td>
                     <td>
-                        <input id="${sessionData[1] + "Hole15"}" type="number" />
+                        <input id="${sessionData[1] + "Hole15"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                     </td>
                     <td>
                         <input disabled value="${yardValues[14]}" />
@@ -1481,10 +1481,10 @@ if (window.location.pathname === "/scorecard.html") {
                         <input disabled value="${hcpValues[15]}" />
                     </td>
                     <td>
-                        <input id="${sessionData[0] + "Hole16"}" type="number" />
+                        <input id="${sessionData[0] + "Hole16"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                     </td>
                     <td>
-                        <input id="${sessionData[1] + "Hole16"}" type="number" />
+                        <input id="${sessionData[1] + "Hole16"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                     </td>
                     <td>
                         <input disabled value="${yardValues[15]}" />
@@ -1501,10 +1501,10 @@ if (window.location.pathname === "/scorecard.html") {
                         <input disabled value="${hcpValues[16]}" />
                     </td>
                     <td>
-                        <input id="${sessionData[0] + "Hole17"}" type="number" />
+                        <input id="${sessionData[0] + "Hole17"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                     </td>
                     <td>
-                        <input id="${sessionData[1] + "Hole17"}" type="number" />
+                        <input id="${sessionData[1] + "Hole17"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                     </td>
                     <td>
                         <input disabled value="${yardValues[16]}" />
@@ -1521,10 +1521,10 @@ if (window.location.pathname === "/scorecard.html") {
                         <input disabled value="${hcpValues[17]}" />
                     </td>
                     <td>
-                        <input id="${sessionData[0] + "Hole18"}" type="number" />
+                        <input id="${sessionData[0] + "Hole18"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                     </td>
                     <td>
-                        <input id="${sessionData[1] + "Hole18"}" type="number" />
+                        <input id="${sessionData[1] + "Hole18"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                     </td>
                     <td>
                         <input disabled value="${yardValues[17]}" />
@@ -1599,7 +1599,7 @@ if (window.location.pathname === "/scorecard.html") {
                         <input disabled value="${hcpValues[0]}" />
                     </td>
                     <td>
-                        <input id="${sessionData[0] + "Hole1"}" type="number" />
+                        <input id="${sessionData[0] + "Hole1"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()" />
                     </td>
                     <td>
                         <input disabled value="${yardValues[0]}" />
@@ -1616,7 +1616,7 @@ if (window.location.pathname === "/scorecard.html") {
                         <input disabled value="${hcpValues[1]}" />
                     </td>
                     <td>
-                        <input id="${sessionData[0] + "Hole2"}" type="number" />
+                        <input id="${sessionData[0] + "Hole2"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                     </td>
                     <td>
                         <input disabled value="${yardValues[1]}" />
@@ -1633,7 +1633,7 @@ if (window.location.pathname === "/scorecard.html") {
                         <input disabled value="${hcpValues[2]}" />
                     </td>
                     <td>
-                        <input id="${sessionData[0] + "Hole3"}" type="number" />
+                        <input id="${sessionData[0] + "Hole3"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                     </td>
                     <td>
                         <input disabled value="${yardValues[2]}" />
@@ -1650,7 +1650,7 @@ if (window.location.pathname === "/scorecard.html") {
                         <input disabled value="${hcpValues[3]}" />
                     </td>
                     <td>
-                        <input id="${sessionData[0] + "Hole4"}" type="number" />
+                        <input id="${sessionData[0] + "Hole4"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                     </td>
                     <td>
                         <input disabled value="${yardValues[3]}" />
@@ -1667,7 +1667,7 @@ if (window.location.pathname === "/scorecard.html") {
                         <input disabled value="${hcpValues[4]}" />
                     </td>
                     <td>
-                        <input id="${sessionData[0] + "Hole5"}" type="number" />
+                        <input id="${sessionData[0] + "Hole5"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                     </td>
                     <td>
                         <input disabled value="${yardValues[4]}" />
@@ -1684,7 +1684,7 @@ if (window.location.pathname === "/scorecard.html") {
                         <input disabled value="${hcpValues[5]}" />
                     </td>
                     <td>
-                        <input id="${sessionData[0] + "Hole6"}" type="number" />
+                        <input id="${sessionData[0] + "Hole6"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                     </td>
                     <td>
                         <input disabled value="${yardValues[5]}" />
@@ -1701,7 +1701,7 @@ if (window.location.pathname === "/scorecard.html") {
                         <input disabled value="${hcpValues[6]}" />
                     </td>
                     <td>
-                        <input id="${sessionData[0] + "Hole7"}" type="number" />
+                        <input id="${sessionData[0] + "Hole7"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                     </td>
                     <td>
                         <input disabled value="${yardValues[6]}" />
@@ -1718,7 +1718,7 @@ if (window.location.pathname === "/scorecard.html") {
                         <input disabled value="${hcpValues[7]}" />
                     </td>
                     <td>
-                        <input id="${sessionData[0] + "Hole8"}" type="number" />
+                        <input id="${sessionData[0] + "Hole8"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                     </td>
                     <td>
                         <input disabled value="${yardValues[7]}" />
@@ -1735,7 +1735,7 @@ if (window.location.pathname === "/scorecard.html") {
                         <input disabled value="${hcpValues[8]}" />
                     </td>
                     <td>
-                        <input id="${sessionData[0] + "Hole9"}" type="number" />
+                        <input id="${sessionData[0] + "Hole9"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                     </td>
                     <td>
                         <input disabled value="${yardValues[8]}" />
@@ -1769,7 +1769,7 @@ if (window.location.pathname === "/scorecard.html") {
                         <input disabled value="${hcpValues[9]}" />
                     </td>
                     <td>
-                        <input id="${sessionData[0] + "Hole10"}" type="number" />
+                        <input id="${sessionData[0] + "Hole10"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                     </td>
                     <td>
                         <input disabled value="${yardValues[9]}" />
@@ -1786,7 +1786,7 @@ if (window.location.pathname === "/scorecard.html") {
                         <input disabled value="${hcpValues[10]}" />
                     </td>
                     <td>
-                        <input id="${sessionData[0] + "Hole11"}" type="number" />
+                        <input id="${sessionData[0] + "Hole11"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                     </td>
                     <td>
                         <input disabled value="${yardValues[10]}" />
@@ -1803,7 +1803,7 @@ if (window.location.pathname === "/scorecard.html") {
                         <input disabled value="${hcpValues[11]}" />
                     </td>
                     <td>
-                        <input id="${sessionData[0] + "Hole12"}" type="number" />
+                        <input id="${sessionData[0] + "Hole12"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                     </td>
                     <td>
                         <input disabled value="${yardValues[11]}" />
@@ -1820,7 +1820,7 @@ if (window.location.pathname === "/scorecard.html") {
                         <input disabled value="${hcpValues[12]}" />
                     </td>
                     <td>
-                        <input id="${sessionData[0] + "Hole13"}" type="number" />
+                        <input id="${sessionData[0] + "Hole13"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                     </td>
                     <td>
                         <input disabled value="${yardValues[12]}" />
@@ -1837,7 +1837,7 @@ if (window.location.pathname === "/scorecard.html") {
                         <input disabled value="${hcpValues[13]}" />
                     </td>
                     <td>
-                        <input id="${sessionData[0] + "Hole14"}" type="number" />
+                        <input id="${sessionData[0] + "Hole14"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                     </td>
                     <td>
                         <input disabled value="${yardValues[13]}" />
@@ -1854,7 +1854,7 @@ if (window.location.pathname === "/scorecard.html") {
                         <input disabled value="${hcpValues[14]}" />
                     </td>
                     <td>
-                        <input id="${sessionData[0] + "Hole15"}" type="number" />
+                        <input id="${sessionData[0] + "Hole15"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                     </td>
                     <td>
                         <input disabled value="${yardValues[14]}" />
@@ -1871,7 +1871,7 @@ if (window.location.pathname === "/scorecard.html") {
                         <input disabled value="${hcpValues[15]}" />
                     </td>
                     <td>
-                        <input id="${sessionData[0] + "Hole16"}" type="number" />
+                        <input id="${sessionData[0] + "Hole16"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                     </td>
                     <td>
                         <input disabled value="${yardValues[15]}" />
@@ -1888,7 +1888,7 @@ if (window.location.pathname === "/scorecard.html") {
                         <input disabled value="${hcpValues[16]}" />
                     </td>
                     <td>
-                        <input id="${sessionData[0] + "Hole17"}" type="number" />
+                        <input id="${sessionData[0] + "Hole17"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                     </td>
                     <td>
                         <input disabled value="${yardValues[16]}" />
@@ -1905,7 +1905,7 @@ if (window.location.pathname === "/scorecard.html") {
                         <input disabled value="${hcpValues[17]}" />
                     </td>
                     <td>
-                        <input id="${sessionData[0] + "Hole18"}" type="number" />
+                        <input id="${sessionData[0] + "Hole18"}" type="number" onkeydown="enterButtonFunction(event)" onblur="playerScoreFunction()"/>
                     </td>
                     <td>
                         <input disabled value="${yardValues[17]}" />
@@ -1952,6 +1952,40 @@ if (window.location.pathname === "/scorecard.html") {
     xmlHTTP.open("GET", golfAPI, true);
     xmlHTTP.setRequestHeader("ContentType", "application/json");
     xmlHTTP.send();
+}
+
+function enterButtonFunction(event){
+    if (event.keyCode === 13) {
+        let elementInput = $(event.target);
+        elementInput.blur(); 
+    }
+}
+
+function playerScoreFunction(){
+    sessionData.forEach(playerName => {
+        let playerOut = 0;
+        let playerIn = 0;
+        let playerTotal = 0;
+        let playerOutInput = document.getElementById(`${playerName}Out`)
+        let playerInInput = document.getElementById(`${playerName}In`)
+        let playerTotalInput = document.getElementById(`${playerName}Total`)
+        let playerScoreInputId;
+        let playerscoreInput;
+        for (let holeNum = 1; holeNum <= 18; holeNum++) {
+            playerScoreInputId = `${playerName}Hole${holeNum}`;
+            playerscoreInput = document.getElementById(playerScoreInputId);
+            if (holeNum <= 9) {
+                playerOut += +playerscoreInput.value;
+            }
+            if (holeNum >= 10 && holeNum <= 18) {
+                playerIn += +playerscoreInput.value;
+            }
+        }
+        playerOutInput.value = playerOut;
+        playerInInput.value = playerIn;
+        playerTotal = playerOut + playerIn;
+        playerTotalInput.value = playerTotal;
+    });
 }
 
 function getScorecardData() {

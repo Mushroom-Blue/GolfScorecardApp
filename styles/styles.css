@@ -118,4 +118,11 @@ body {
   justify-content: center;
 }
 
+.scoreCardBorder {
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 15px;
+  background-color: white;
+}
+
 /*# sourceMappingURL=styles.css.map */
