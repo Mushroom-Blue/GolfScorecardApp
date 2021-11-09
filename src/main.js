@@ -22,7 +22,7 @@ let totalYards = 0;
 
 let xmlHTTP = new XMLHttpRequest();
 
-if (window.location.pathname === "/") {
+if (window.location.pathname === "/GolfScorecardApp/") {
     xmlHTTP.onreadystatechange = () => {
         if (xmlHTTP.readyState === 4 && xmlHTTP.status === 200) {
             oneCourse = JSON.parse(xmlHTTP.responseText);
@@ -54,7 +54,7 @@ if (window.location.pathname === "/") {
     xmlHTTP.send();
 }
 
-if (window.location.pathname === "/scorecard.html") {
+if (window.location.pathname === "/GolfScorecardApp/scorecard.html") {
     xmlHTTP.onreadystatechange = () => {
         if (xmlHTTP.readyState === 4 && xmlHTTP.status === 200) {
             oneCourse = JSON.parse(xmlHTTP.responseText);
